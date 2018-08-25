@@ -1,0 +1,42 @@
+PODS:
+  - Interstellar (2.2.0):
+    - Interstellar/Core (= 2.2.0)
+    - Interstellar/Warpdrive (= 2.2.0)
+  - Interstellar/Core (2.2.0)
+  - Interstellar/Warpdrive (2.2.0):
+    - Interstellar/Core
+  - ReactiveKit (3.9.6)
+  - ReactiveSwift (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.0.0)
+  - RxSwift (4.2.0)
+  - Snail (0.2.0)
+
+DEPENDENCIES:
+  - Interstellar
+  - ReactiveKit
+  - ReactiveSwift
+  - Result
+  - RxSwift
+  - Snail
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Interstellar
+    - ReactiveKit
+    - ReactiveSwift
+    - Result
+    - RxSwift
+    - Snail
+
+SPEC CHECKSUMS:
+  Interstellar: 4f67703a837df47cdbf15c2281ed45b31ecb6193
+  ReactiveKit: 804d3093ad42dee0de19e42d4f7dcae9c14364b0
+  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  Snail: 4e849ec1a23261d6f5c5a35871ea61751e9cdfb6
+
+PODFILE CHECKSUM: a50fa7bd11c11101a053b1e20f59c203d0abba60
+
+COCOAPODS: 1.5.3
