@@ -20,3 +20,7 @@ There were 100 subscribers in the `Many` cases below.
 Interstellar and Snail are very lean which means in complex scenarios they will not be useful without heavy extension.
 
 As you can see ReactiveKit performs the best overall (if we ignore the caveat for ReactiveSwift above).
+
+However, ReactiveSwift comes with a lot of interesting operators that are missing from the other libraries which make it a more desirable option.
+
+RxSwift is clearly the slowest of the bunch.
