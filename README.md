@@ -21,7 +21,7 @@ Interstellar and Snail are very lean which means in complex scenarios they will 
 
 As you can see ReactiveKit performs the best overall (if we ignore the caveat for ReactiveSwift above).
 
-ReactiveKit and ReactiveSwift both come with type-safe errors which means you know exactly what you're going to get when you receive the stream. The only thing similar in RxSwift is the Driver type which enforces no errors and some other potentially undesired behaviour (sharing, main thread). 
+ReactiveKit and ReactiveSwift both come with type-safe errors which means you know exactly what you're going to get when you receive the stream and you can force the stream to not error. The only thing similar in RxSwift is the Driver type which enforces no errors and some other potentially undesired behaviour (sharing, main thread). 
 
 ReactiveSwift comes with a lot of interesting operators that are missing from the other libraries which make it a more desirable option with only a small impact on performance (over ReactiveKit).
 
